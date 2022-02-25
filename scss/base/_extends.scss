@@ -1,0 +1,101 @@
+/*botones*/
+
+%botones1{
+    background-color: black;
+    color: pink;
+
+    
+}
+%botones2{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100px;
+    
+}
+
+
+%botones3{
+
+    border-bottom: 2px solid 
+green;
+    padding: 20px auto;
+    margin: 30px auto;
+}
+
+
+%botones4{
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+
+%botones5{
+    
+.menu > li{
+    position: relative;
+    display: inline-block;       
+}
+
+
+.menu > li > a {
+    display: block;
+
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 10px;
+   
+      }
+
+}
+
+%botones6{
+
+.subMenu{
+          position: absolute;
+          background-color: gold;
+          text-decoration: none;
+          display: none;
+          width: 100px;
+          list-style: none;
+         
+        }
+        .subMenu li a{
+            display: block;
+            padding: 2px;
+            color: green;
+            font-size: 20px;
+            text-decoration: none;
+        
+        }
+    
+         .menu li:hover .subMenu{
+              display: block;
+
+          }
+}
+
+
+
+
+.header{
+    @extend %botones1;
+    @extend %botones2;
+    @extend  %botones4;
+    display: flex
+}
+
+.h1Sass{
+   
+    @extend %botones3;
+}
+.divSass{
+    margin: 20px;
+    @extend %botones5;
+    @extend %botones6;
+}
+

@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  max-width: 100%;
+  background-color: bisque; }
+
+/*standard parte 1*/
+.h2Sass {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 50px;
+  font-family: arial;
+  color: white;
+  border-bottom: 5px solid gold; }
+
+.pSass1 {
+  background-color: green;
+  margin: 50px auto;
+  padding: 50px;
+  font-size: 20px; }
+
+/*premium parte 2*/
+.h3Sass {
+  background-color: white;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Segoe UI";
+  color: lightcoral; }
+
+.pSass2 {
+  background-color: magenta;
+  margin: 10px;
+  padding: 30px;
+  color: lightblue;
+  font-family: "Trebuchet MS"; }
+
+/*botones*/
+.header {
+  background-color: black;
+  color: pink; }
+
+.header {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100px; }
+
+.h1Sass {
+  border-bottom: 2px solid  green;
+  padding: 20px auto;
+  margin: 30px auto; }
+
+.header {
+  max-width: 100%;
+  left: 0;
+  top: 0;
+  right: 0; }
+
+.divSass .menu > li {
+  position: relative;
+  display: inline-block; }
+
+.divSass .menu > li > a {
+  display: block;
+  color: beige;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-size: 10px; }
+
+.divSass .subMenu {
+  position: absolute;
+  background-color: gold;
+  text-decoration: none;
+  display: none;
+  width: 100px;
+  list-style: none; }
+
+.divSass .subMenu li a {
+  display: block;
+  padding: 2px;
+  color: green;
+  font-size: 20px;
+  text-decoration: none; }
+
+.divSass .menu li:hover .subMenu {
+  display: block; }
+
+.header {
+  display: flex; }
+
+.divSass {
+  margin: 20px; }
+
+.footerSass {
+  background-color: brown;
+  color: red;
+  padding: 5px;
+  border: 5px solid black;
+  margin: 5px;
+  width: 90%;
+  height: 100px; }
+
+.h4Sass {
+  padding: 20px;
+  text-align: center;
+  font-size: 25px; }
+
+.h5Sass {
+  text-align: center;
+  padding: 20px; }

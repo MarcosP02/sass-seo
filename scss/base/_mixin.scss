@@ -1,0 +1,37 @@
+@mixin footer($fondo,$colorl,$relleno,$bordes,$margen,$ancho,$alto){
+    
+background-color:  ($fondo);
+color: ($colorl);
+padding: ($relleno);
+border: ($bordes);
+margin: ($margen);
+width: ($ancho);
+height: ($alto);
+};
+
+@mixin h4($centro,$padding,$letrat) {
+    padding: $padding;
+    text-align: $centro;
+    font-size: $letrat;
+    
+}
+
+@mixin h5($centro,$padding){
+    text-align: $centro;
+    padding: $padding;
+    
+    }
+
+ 
+.footerSass{
+    @include footer(brown,red ,5px ,5px solid black ,5px ,90%,100px )
+}
+
+
+.h4Sass{
+    @include h4(center,20px,25px)
+}
+
+.h5Sass{
+    @include h5(center,20px);
+}  

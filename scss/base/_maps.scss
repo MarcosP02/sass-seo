@@ -1,0 +1,81 @@
+/*standard parte 1*/
+
+$standard :(
+    color-standard:white,
+    bg-standard:bisque,
+    padding-standard:20px auto,
+    border-bottom-standard: 5px solid gold, 
+    text-aling-standard:center,
+    font-size-standard:20px,
+);
+$standard1 :(
+bg-standard1:green,
+padding-standad1:50px,
+margin-standard1:50px auto,
+font-size-standard1:50px,
+font-family-standard1:arial,
+);
+
+
+.h2Sass{
+    text-align: map-get($map: $standard, $key:text-aling-standard );
+    margin: map-get($map: $standard1, $key:margin-standard1 );
+    font-size: map-get($map: $standard1, $key:font-size-standard1 );
+font-family: map-get($map: $standard1, $key:font-family-standard1 );
+color: map-get($map: $standard, $key:color-standard );
+border-bottom: map-get($map: $standard, $key: border-bottom-standard );
+}
+.pSass1{
+    background-color: map-get($map: $standard1, $key:bg-standard1 );
+    margin: map-get($map: $standard1, $key:margin-standard1 );
+    padding: map-get($map: $standard1, $key:padding-standad1 );
+    font-size: map-get($map: $standard, $key:font-size-standard );
+}
+
+/*premium parte 2*/
+
+
+$premium:(
+    bg-premium: white,
+    color-premium:lightcoral,
+    margin-premium:30px auto,
+    padding-premium:20px ,
+    font-size-premium:30px,
+    font-family-premium:'Segoe UI',
+    text-aling-premium: center,
+    border-bottom-premium:5px solid black,
+);
+
+$premium1:(
+    bg-premium1: magenta,
+    margin-premium1:10px ,
+    padding-premium1:30px ,
+    font-size-premium1:30px,
+    font-family-premium1:'Trebuchet MS',
+    color-premium1:lightblue,
+
+);
+
+
+.h3Sass{
+    background-color: map-get($map: $premium, $key:bg-premium );
+    margin: map-get($map: $premium, $key:margin-premium );
+    padding: map-get($map: $premium, $key:padding-premium );
+    text-align: map-get($map: $premium, $key:text-aling-premium );
+    font-size: map-get($map: $premium, $key:font-size-premium );
+    font-family: map-get($map: $premium, $key:font-family-premium );
+    color: map-get($map: $premium, $key:color-premium );
+
+}
+
+.pSass2{
+ background-color: map-get($map: $premium1, $key: bg-premium1 );
+margin: map-get($map: $premium1, $key:margin-premium1);
+padding: map-get($map: $premium1, $key:padding-premium1 );
+font-size: map-get($map: $premium, $key:font-family-premium1 );
+color: map-get($map: $premium1, $key: color-premium1 );
+font-family: map-get($map: $premium1, $key:font-family-premium1 );
+
+}
+
+
